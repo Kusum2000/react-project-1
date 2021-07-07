@@ -4,10 +4,10 @@ function Nav(){
     return(
         <nav>
             <ul>
-                <Link to='/' className='nav-logo'>
+                <Link to='/react-project-1' className='nav-logo'>
                     <li >MyReactApp<br/>Logo</li>
                 </Link>
-                <Link to='/' className='nav-link'>
+                <Link to='/react-project-1' className='nav-link'>
                     <li className="li-nav">Home</li>
                 </Link>
                 <Link to='/about' className='nav-link'>
