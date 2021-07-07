@@ -8,7 +8,7 @@ nav{
   justify-content: space-between; 
   width: 100vw;
   height:fit-content;
-  margin: 5px 5px;
+  margin: 0 auto;
   border-bottom: 10px solid tomato;
 
 }
@@ -26,7 +26,7 @@ ul{
 }
 li{
   display: inline-block;
-  padding: 15px;
+  padding: 0 5px;
   color: gold;
   position: absolute;
   top:0;
@@ -35,14 +35,26 @@ li{
 }
 li.li-nav{
   color:white;
+  padding: 15px ;
   position:relative;
 
 }
+
 li.li-nav:hover{
   background-color: rgb(235, 231, 231);
   transition: all 0.5s;
   color:black
 }
+.home-div{
+  display:flex;
+  
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
 about-div{
   padding: 20px 20px;
   margin:0 auto;

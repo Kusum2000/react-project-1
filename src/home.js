@@ -6,8 +6,8 @@ import Detail from './detail';
 function Home(){
     return(
     <div className="home-div">
-        <Detail age="19" name="Tharun Jain" image={guy_image} />
-    <Detail age="21" name="Aishwarya Ananya" image={girl_image}/>
+        <Detail age="19" name="Tharun Jain" image={guy_image} className="detail"/>
+        <Detail age="21" name="Aishwarya Ananya" image={girl_image} className="detail"/>
     </div>
     )
 }
