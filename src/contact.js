@@ -5,7 +5,7 @@ function Contact(){
         <div className="contact-div">
             <h2>Contact Me</h2>
             <p>Get in touch via...</p>
-            <p><b><small>WhatsApp, Instagram, LinkedIn </small></b>:)</p>
+            <p><b><small>WhatsApp, Instagram, LinkedIn... </small></b>:)</p>
         </div>
     )
 }
